@@ -1,0 +1,27 @@
+{
+    "name": "philbone/gitme",
+    "description": "Execute Git commands on your project via PHP.",
+    "type": "package",
+    "require": {
+        "phpunit/phpunit": "^7.2@dev"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Felipe Alejandro Madariaga Olguin",
+            "email": "philbone@focused.cl"
+        }
+    ],
+    "autoload": {
+        "classmap": ["src/"]
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    "version": "1.0.0", 
+    "minimum-stability": "dev",
+    "require-dev": {
+    }
+}
